@@ -1,3 +1,4 @@
+package primeirasAulas;
 import java.util.HashSet;
 
 public class CollectionHashSet {
