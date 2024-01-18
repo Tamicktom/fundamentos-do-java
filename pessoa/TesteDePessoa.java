@@ -2,10 +2,7 @@ package pessoa;
 
 public class TesteDePessoa {
   public static void main(String[] args) {
-    Pessoa pessoa = new Pessoa();
-    pessoa.cpf = "123456789-00";
-    pessoa.idade = 18;
-    pessoa.nome = "Fulano";
+    Pessoa pessoa = new Pessoa("João", 20, "123.456.789-00");
 
     pessoa.imprimirDados();
   }
