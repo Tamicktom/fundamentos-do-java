@@ -3,18 +3,18 @@ import java.util.HashMap;
 
 public class Collections {
   public static void main(String[] args) {
-    Map<String, Integer> map = new HashMap<>();
+    Map<String, Integer> notas = new HashMap<>();
 
-    map.put("João", 1);
-    map.put("Maria", 2);
+    notas.put("João", 1);
+    notas.put("Maria", 2);
 
-    map.forEach((nome, id) -> System.out.println(nome + " " + id));
+    notas.forEach((nome, id) -> System.out.println(nome + " " + id));
     
-    for(Map.Entry<String, Integer> entry : map.entrySet()) {
+    for(Map.Entry<String, Integer> entry : notas.entrySet()) {
       System.out.println(entry.getKey() + " " + entry.getValue());
     }
 
-    Integer nota = map.get("João");
+    Integer nota = notas.get("João");
     System.out.println(nota);
   }
 }
